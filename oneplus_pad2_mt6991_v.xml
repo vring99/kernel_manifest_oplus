@@ -3,8 +3,9 @@
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <!--  <project remote="origin" name="android_kernel_oneplus_mt6991" path="kernel-6.6" revision="oneplus/mt6991_b_16.0.0_pad_2">-->
   <project remote="origin" name="android_kernel_oneplus_mt6991" path="kernel-6.6" revision="9b6ad5b4b8138fa948baea0c959c121f7f8fdf66">
-<!--  <project remote="origin" name="android_kernel_oneplus_mt6991" path="kernel-6.6" revision="oneplus/mt6991_b_16.0.0_pad_2">-->
+
     <linkfile dest="kernel_platform/common" src="."/>
   </project>
 <!--  <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_mt6991" path="./" revision="oneplus/mt6991_b_16.0.0_pad_2"/>-->
